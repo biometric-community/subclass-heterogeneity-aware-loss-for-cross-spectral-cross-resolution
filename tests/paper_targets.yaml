@@ -1,0 +1,10 @@
+# Ghosh, Singh & Vatsa, "Subclass Heterogeneity Aware Loss for Cross-Spectral
+# Cross-Resolution Face Recognition", IEEE TBIOM 2(3), 2020,
+# doi:10.1109/TBIOM.2020.2984324 (authors per Crossref).
+source: doi:10.1109/TBIOM.2020.2984324
+first_author: Ghosh
+
+# Fill in from the paper's tables to enable test_published_values. Only the abstract
+# was available when this suite was written, so no values are recorded here.
+# Shape: {lfw_accuracy: 0.0} with values in %.
+published_values: null
