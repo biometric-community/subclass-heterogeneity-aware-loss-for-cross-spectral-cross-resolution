@@ -53,6 +53,10 @@ def test_hard_negative_push_ignores_same_identity_pairs():
     assert sheal_loss(emb, emb, y, weight, alpha_cross=0.0, beta_neg=5.0).item() == pytest.approx(base.item())
 
 
+def test_batch_size_matches_the_paper(default_cfg, targets):
+    assert default_cfg["train"]["batch_size"] == targets["batch_size"]
+
+
 def test_lr_probe_keeps_size_and_loses_detail():
     hr = torch.rand(3, 112, 112) * 2 - 1
     lr = make_lr(hr, 4)

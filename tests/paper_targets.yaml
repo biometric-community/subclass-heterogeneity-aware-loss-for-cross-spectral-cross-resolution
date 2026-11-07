@@ -4,7 +4,11 @@
 source: doi:10.1109/TBIOM.2020.2984324
 first_author: Ghosh
 
-# Fill in from the paper's tables to enable test_published_values. Only the abstract
-# was available when this suite was written, so no values are recorded here.
-# Shape: {lfw_accuracy: 0.0} with values in %.
-published_values: null
+# Table II, SCface cross-resolution Rank-1 (%). The repo's x4 probes are 28x28 pixels,
+# between these two columns.
+scface_cross_resolution:
+  probe_24: 72.8
+  probe_32: 97.6
+
+# Sec. III-D.
+batch_size: 20
