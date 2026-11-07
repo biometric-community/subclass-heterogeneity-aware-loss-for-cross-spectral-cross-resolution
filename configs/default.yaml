@@ -10,7 +10,7 @@ model:
 train:
   protocol: full
   seed: 42
-  batch_size: 64
+  batch_size: 20
   num_workers: 4
   epochs: 5
   lr: 0.001
