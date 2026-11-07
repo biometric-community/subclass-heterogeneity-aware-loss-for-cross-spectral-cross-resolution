@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776ab?logo=python&logoColor=white)](https://www.python.org/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 
-Lab twin of Singh et al., *Subclass Heterogeneity Aware Loss for Cross-Spectral Cross-Resolution Face Recognition* (IEEE TBIOM 2020).
+Lab twin of Ghosh et al., *Subclass Heterogeneity Aware Loss for Cross-Spectral Cross-Resolution Face Recognition* (IEEE TBIOM 2020).
 
 **Repository:** https://github.com/biometric-community/subclass-heterogeneity-aware-loss-for-cross-spectral-cross-resolution
 

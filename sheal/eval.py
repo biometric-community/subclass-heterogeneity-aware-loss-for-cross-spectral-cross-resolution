@@ -61,9 +61,11 @@ def eval_cross_res(model, cfg, device) -> dict:
         feats = model.embed(hr).cpu().numpy()
         for i, yi in enumerate(y_np):
             yi = int(yi)
+            # the gallery image must not also serve as a probe
             if yi not in gallery:
                 gallery[yi] = feats[i]
-            probes[yi].append(lr[i])
+            else:
+                probes[yi].append(lr[i])
     g_labels = np.array(sorted(gallery.keys()))
     g_mat = np.stack([gallery[k] for k in g_labels], axis=0)
     correct = total = 0

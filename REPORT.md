@@ -1,6 +1,6 @@
 # REPORT — SHEAL
 
-Lab twin of Singh et al., *Subclass Heterogeneity Aware Loss* (IEEE TBIOM 2020). CelebA HR/LR subclasses substitute cross-spectral/cross-resolution protocols (see DEVIATIONS).
+Lab twin of Ghosh et al., *Subclass Heterogeneity Aware Loss* (IEEE TBIOM 2020). CelebA HR/LR subclasses substitute cross-spectral/cross-resolution protocols (see DEVIATIONS).
 
 ## Train
 
